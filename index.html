@@ -1,26 +1,74 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <title></title>
-    </head>
-    <body>
-    	<div class="container">
-    	<h1>pH Scale</h1>
-    	<p class="first">14.0 VERY ALKALINE</p>
-    	<p class="second">13.0</p>
-    	<p class="third">12.0</p>
-    	<p class="fourth">11.0</p>
-    	<p class="fifth">10.0</p>
-    	<p class="six">9.0</p>
-    	<p class="seven">8.0</p>
-    	<p class="eight">7.0 <SPAN style="font-size: 30px">NEUTRAL</SPAN></p>
-    	<p class="nine">6.0</p>
-    	<p class="ten">5.0</p>
-    	<p class="eleven">4.0</p>
-    	<p class="twelve">3.0</p>
-    	<p class="thirteen">2.0</p>
-    	<p class="fourteen">1.0</p>
-    	<p class="fifthteen">0.0 VERY ACID</p>
-    </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.jpeg" alt="">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Razeen Shuja.</span>
+                    <!-- A PhD Scholar. -->
+                </h1>
+                <p>
+                    I am a PhD student currently working on nonlocality in quantum foundations. 
+                    My MSc thesis dealt with “time-scale calculus”, while my general research interests
+                     are in nonlocality, and quantum machine learning. My current research projects 
+                     include: 
+
+                     <ol>
+                        <li>1. Obtaining an analytic characterization of the quantum region for two-player binary input-output correlation </li>
+                        <li>2. Learning Bell Inequalities using symbolic regression </li>
+                        <li>3. Comparing nonlocality distillation against entanglement concentration </li>
+                    </ol>
+
+                </p>
+                
+
+                
+            </div>
+        </div>
+
+
+        <div class="controls">
+            <div class="control active-btn" data-id="home" >
+                <a href="#home">Home</a><i class="fas fa-home"></i>
+            </div>
+            <div class="control active-btn" class="control" data-id="about">
+                About <i  class="fas fa-user"></i>
+            </div>
+            <div class="control active-btn" class="control" data-id="portfolio">
+                Potflio<i class="fas fa-briefcase"></i>
+            </div>
+            <!-- <div class="control" data-id="blogs">
+                <i class="far fa-newspaper"></i>
+            </div> -->
+            <div class="control active-btn" class="control" data-id="contact">
+                Contct <i class="fas fa-envelope-open"></i>
+            </div>
+        </div>
+
+    </header>
+
+
+   
+
+    
+</body>
+</html>
+    
